@@ -45,6 +45,7 @@ router.post("/register", userValidationRules(), validate, (req, res) => {
       res.status(201).json(saved);
     })
     .catch((error) => {
+      console.log(error, "Error message");
       res.status(500).json(error);
     });
 });
