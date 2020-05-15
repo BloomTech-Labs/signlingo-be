@@ -1,0 +1,32 @@
+/*
+This file is the master list of all the links to the ASL signs
+for the alphabet. They are stored in google photos using the 
+Singlingo gmail account.
+*/
+
+A=https://photos.app.goo.gl/ZzZryfR1ygX6eFv37
+B=https://photos.app.goo.gl/D1xX1qX5jqrJiMiS9
+C=https://photos.app.goo.gl/2TXNXcHyJJ1za7AXA
+D=https://photos.app.goo.gl/Kq3KzzVJTaH2m7n48
+E=https://photos.app.goo.gl/saPms6Mj6RenuqQK7
+F=https://photos.app.goo.gl/DVvK8azSuTbndkwT6
+G=https://photos.app.goo.gl/L63w2KkE7Ki52xt98
+H=https://photos.app.goo.gl/xiDRUvhZD4UnTzZu6
+I=https://photos.app.goo.gl/Eu3G2vS9eH8nTdYh6
+J=https://photos.app.goo.gl/LUu23JqsMmqVzP8y5
+K=https://photos.app.goo.gl/XFE63pxzzqeZKmG28
+L=https://photos.app.goo.gl/6crcFygZsCGNnThL6
+M=https://photos.app.goo.gl/LnCCQMMzatDTbCuC8
+N=https://photos.app.goo.gl/ccThj5QKhazkHEaV9
+O=https://photos.app.goo.gl/mC1UWLMTB9UsS3Hz8
+P=https://photos.app.goo.gl/HuMyYCVNkkgWVsjh7
+Q=https://photos.app.goo.gl/ktDLN6LPjZbQGUAM6
+R=https://photos.app.goo.gl/pDF1ZAwWSWw2p1DV7
+S=https://photos.app.goo.gl/4A51wrnTQKwdiLiZ9
+T=https://photos.app.goo.gl/i6EY6fcYxBRoP1Ug6
+U=https://photos.app.goo.gl/Z81LymZ8viaF7xse7
+V=https://photos.app.goo.gl/sV7QBucsgXTa3QVj8
+W=https://photos.app.goo.gl/cG6Z81n4Hygk7qum6
+X=https://photos.app.goo.gl/3RzxkdRaBtztoE4g7
+Y=https://photos.app.goo.gl/NdCPbAN3Z17Gwi356
+Z=https://photos.app.goo.gl/RXVaMAzma9pPfcjt9

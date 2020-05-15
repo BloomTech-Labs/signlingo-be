@@ -1,4 +1,12 @@
-const { body, validationResult } = require('express-validator')
+/*
+**Contributors:
+**Seth Cox
+**David Isakson
+**April - May 2020
+*/
+const { body, validationResult } = require('express-validator');
+
+//Sets the Validation rules
 const userValidationRules = () => {
   return [
     // username must be an email
@@ -8,6 +16,7 @@ const userValidationRules = () => {
   ]
 }
 
+//Checks that the data is valid.
 const validate = (req, res, next) => {
   const errors = validationResult(req)
   if (errors.isEmpty()) {

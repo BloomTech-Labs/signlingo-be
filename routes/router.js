@@ -8,7 +8,14 @@
 ** Github: https://github.com/ikeman32/duke-api-wauth
 ** Contact: david.isakson.ii@gmail.com
 */
-// IMPORTS
+
+/*
+**Contributors:
+**Seth Cox
+**David Isakson
+**April - May 2020
+*/
+// IMPORTS of individual routers
 const authRouter = require("../auth/auth-router.js");
 const aslRouter = require("../asl/asl-router.js");
 const level1Router = require("../Levels/level1-router.js");
@@ -16,7 +23,19 @@ const level2Router = require("../Levels/level2-router.js");
 const level3Router = require("../Levels/level3-router.js");
 const level4Router = require("../Levels/level4-router.js");
 const level5Router = require("../Levels/level5-router.js");
-    
+
+/*
+Add this to the protected routes that require a user to be logged in.
+example: server.user("api/level_1", restricted, level1Router);
+*/
+const restricted = require("../middleware/restricted");
+
+/*
+This file contains all the routes to the endpoints and is imported into
+the server.js file in the api folder. Individual routers are routed through
+here in order to keep a central location for the routes and prevent the api
+server file from getting cluttered as new endpoints and routers are added.
+*/
 module.exports = server => {
   server.use("/api/auth", authRouter);
   server.use("/api/asl", aslRouter);

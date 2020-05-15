@@ -9,6 +9,13 @@
 ** Contact: david.isakson.ii@gmail.com
 */
 
+/*
+**Contributors:
+**Seth Cox
+**David Isakson
+**April - May 2020
+*/
+
 const express = require("express");
 const helmet = require("helmet");
 const cors = require("cors");

@@ -1,3 +1,9 @@
+/*
+**Contributors:
+**Seth Cox
+**David Isakson
+**April - May 2020
+*/
 const request = require('supertest')
 const server = require('../api/server')
 

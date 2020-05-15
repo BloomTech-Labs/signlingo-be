@@ -1,3 +1,9 @@
+/*
+**Contributors:
+**Seth Cox
+**David Isakson
+**April - May 2020
+*/
 const db = require("../data/dbconfig.js");
 
 const AtoEtbl = "AtoE"; //define table name

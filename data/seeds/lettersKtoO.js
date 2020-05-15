@@ -1,4 +1,9 @@
-const letter = require('../objects/KtoOobj.js');
+/*
+**Contributors:
+**Seth Cox
+**David Isakson
+**April - May 2020
+*/
 const tbl = 'KtoO';
 
 exports.seed = function(knex) {
@@ -7,11 +12,11 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex(tbl).insert([
-        {letter: 'K', image: letter.imageK},
-        {letter: 'L', image: letter.imageL},
-        {letter: 'M', image: letter.imageM},
-        {letter: 'N', image: letter.imageN},
-        {letter: 'O', image: letter.imageO}
+        {letter: 'K', image: 'https://photos.app.goo.gl/XFE63pxzzqeZKmG28'},
+        {letter: 'L', image: 'https://photos.app.goo.gl/6crcFygZsCGNnThL6'},
+        {letter: 'M', image: 'https://photos.app.goo.gl/LnCCQMMzatDTbCuC8'},
+        {letter: 'N', image: 'https://photos.app.goo.gl/ccThj5QKhazkHEaV9'},
+        {letter: 'O', image: 'https://photos.app.goo.gl/mC1UWLMTB9UsS3Hz8'}
       ]);
     });
 };

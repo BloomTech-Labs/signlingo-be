@@ -1,6 +1,13 @@
+/*
+**Contributors:
+**Seth Cox
+**David Isakson
+**April - May 2020
+*/
 require('dotenv').config();
 const jwt = require("jsonwebtoken"); // installed this
-    
+
+//Restricts endpoints to logged in users
 module.exports = (req, res, next) => {
   const { authorization } = req.headers;
 

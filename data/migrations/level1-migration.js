@@ -1,4 +1,9 @@
-
+/*
+**Contributors:
+**Seth Cox
+**David Isakson
+**April - May 2020
+*/
 exports.up = function(knex) {
     return knex.schema
         .createTable("Level_1", tbl => {

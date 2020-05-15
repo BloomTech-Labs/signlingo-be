@@ -2,36 +2,31 @@
 **Contributors:
 **Seth Cox
 **David Isakson
-**
-**May, 2020
+**April - May 2020
 */
 const router = require("express").Router();
 
-// const Lessons = require("../models/level4-model.js");
-const asl = require("../models/asl-model");
+const level4 = require("../models/level4-model");
 
-router.get("/signs", (req, res) => {
-  asl
-    .getPtoT()
-    .then((data) => {
-      res.status(200).json(data);
+router.put("/", (req, res) => {
+  level4
+    .findById(req.params.id)
+    .then(data => {
+      if (data) {
+        level4.addUser(req.body, req.params.id)
+          .then(data => {
+            res.status(201).json(data);
+          })
+          .catch(error => {
+            res.status(500).json(error);
+          })
+      } else {
+      res.status(404).json(data, "could not find the user");
+    }
     })
     .catch((error) => {
-      res.status(500).json({ message: "Failed to find the data" });
-    });
+      res.status(500).json({error,  message: "Failed to update the data" });
+    })
 });
-
-// router.post("/", (req, res) => {
-//  const lessonData = req.body;
-//
-//
-//  Lessons.addUser(lessonData)
-//    .then((data) => {
-//      res.status(201).json(data);
-//   })
-//    .catch((error) => {
-//      res.status(500).json({ message: "Failed to create new user" });
-//    });
-//});
 
 module.exports = router;

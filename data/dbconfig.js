@@ -8,10 +8,16 @@
 ** Github: https://github.com/ikeman32/duke-api-wauth
 ** Contact: david.isakson.ii@gmail.com
 */
+/*
+**Contributors:
+**Seth Cox
+**David Isakson
+**April - May 2020
+*/
 require("dotenv").config();
 
 const knex = require("knex");
-    
+
 const knexConfig = require("../knexfile.js");
 
 const environment = process.env.DB_ENV;

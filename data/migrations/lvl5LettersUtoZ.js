@@ -1,8 +1,13 @@
-
+/*
+**Contributors:
+**Seth Cox
+**David Isakson
+**April - May 2020
+*/
 exports.up = function(knex) {
   return knex.schema.createTable('UtoZ', tbl =>{
   	tbl.increments();
-  	
+
   	tbl
   	  .string('letter')
   	  .notNullable()

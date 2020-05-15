@@ -1,9 +1,12 @@
+/*
+**Contributors:
+**Seth Cox
+**David Isakson
+**April - May 2020
+*/
 const request = require("supertest");
 
 const server = require("../api/server");
-//const db = require("../data/dbConfig.js");
-
-
 
 describe("SERVER ", () => {
   it("should return 200 OK", function() {

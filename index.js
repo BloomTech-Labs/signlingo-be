@@ -8,12 +8,18 @@
 ** Github: https://github.com/ikeman32/duke-api-wauth
 ** Contact: david.isakson.ii@gmail.com
 */
+/*
+**Contributors:
+**Seth Cox
+**David Isakson
+**April - May 2020
+*/
 
 require("dotenv").config();
   const server = require("./api/server.js");
-  
+
   const port = process.env.PORT;
-  
+
   server.listen(port, function() {
   console.log(`\n Server is running on localhost:${port} \n`);
   });
